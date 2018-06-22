@@ -25,7 +25,7 @@ SECRET_KEY = 'rx$j9!7qh8mmkbw(yj43g0y_9phea1&-kc%!1bpo&q5mw%i^e5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['http://127.0.0.1:8000']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myloginproject',
+    'templates',
 ]
 
 MIDDLEWARE = [
